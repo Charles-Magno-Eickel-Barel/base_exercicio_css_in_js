@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
 
 import EstiloGlobal, { Container } from './styles'
-import temaLight from './containers/themes/light'
+import temaLight from './themes/light'
 
 function App() {
   return (
