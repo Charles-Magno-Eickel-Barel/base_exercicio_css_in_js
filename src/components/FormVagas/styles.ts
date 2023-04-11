@@ -7,6 +7,9 @@ export const Form = styled.form`
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
+  @media (max-width: 768px) {
+    grid-template-columns: auto;
+  }
 `
 export const BtnPesquisar = styled.button`
   background-color: ${(props) => props.theme.corPrincipal};
@@ -17,8 +20,14 @@ export const BtnPesquisar = styled.button`
   color: ${(props) => props.theme.corSecundaria};
   margin-left: 8px;
   cursor: pointer;
+  @media (max-width: 768px) {
+    margin-left: 0;
+  }
 `
 export const Campo = styled.input`
   padding: 0 16px;
   outline-color: ${(props) => props.theme.corPrincipal};
+  @media (max-width: 768px) {
+    padding: 10px 0;
+  }
 `
